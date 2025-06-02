@@ -1,0 +1,20 @@
+server:
+  port: 8080
+  tomcat:
+    max-connections: 20
+    threads:
+      max: 20
+      min-spare: 10
+    accept-count: 10
+
+# 微信公众号对接
+weixin:
+  config:
+    originalId: ${ORIGINALID}
+    token: ${TOKEN}
+
+# 日志
+logging:
+  level:
+    root: info
+  config: classpath:logback-spring.xml
