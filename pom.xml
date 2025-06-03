@@ -18,6 +18,7 @@
     <modules>
         <module>s-pay-mall-weixin</module>
         <module>s-pay-mall-alipay</module>
+        <module>s-pay-mall-mvc</module>
     </modules>
 
     <properties>
